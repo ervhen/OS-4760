@@ -1,0 +1,1 @@
+	I didn't finish, the current problem is it gets stuck in the while loop. I dont have a signal handler for ctl +c either. I did get the timer working, but not in this iteration. 

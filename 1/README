@@ -1,0 +1,5 @@
+	I have provided a Makefile to compile the program. The executable output of this Makefile is logParse. Make clean deletes the executable logParse, input.dat, output.dat and the object files. The program needs an input file to read, defaulting to input.dat unless specified with the -i option. The output is output.dat unless specified with -o, and the program will overwrite anything with same name as the output (it does not check if a file with the same name exists or not).
+
+	The program does not error check the input file. It doesn't check for newlines so the input file could have numbers all on the same line and it will run the same. I had issues checking for a newline character but since it wasn't required, I decided to just leave out that functionality.
+
+	I used git for version control.
